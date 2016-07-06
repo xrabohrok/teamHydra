@@ -9,6 +9,8 @@ public class Inhabitable : MonoBehaviour {
     private SphereCollider cCollider;
     private bool usingDropLocation;
     private Vector3 despawnLocation;
+    private MeshRenderer thingRendered;
+    private Color oldColor;
 
 
     // Use this for initialization
@@ -21,6 +23,9 @@ public class Inhabitable : MonoBehaviour {
 
 	    cCollider = this.gameObject.GetComponent<SphereCollider>();
 	    cCollider.isTrigger = true;
+
+	    thingRendered = this.gameObject.GetComponent<MeshRenderer>();
+	    oldColor = thingRendered.material.color;
 	}
 	
 	// Update is called once per frame
@@ -51,5 +56,17 @@ public class Inhabitable : MonoBehaviour {
         if(_respawnDropLocation != null)
             Gizmos.DrawLine(this.transform.position, _respawnDropLocation.transform.position);
             
+    }
+
+    public void ShouldLookInhabited(bool isInhabited)
+    {
+        if (isInhabited)
+        {
+            thingRendered.material.color = new Color(oldColor.r, oldColor.g, oldColor.b + 30);
+        }
+        else
+        {
+            thingRendered.material.color = oldColor;
+        }
     }
 }

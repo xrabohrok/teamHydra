@@ -9,29 +9,42 @@ public class GhostDriver : MonoBehaviour
     public GameObject playerPrefab;
 
     public GameObject playerInstance;
+    private GhostAvatar playerAvatar;
     public float timeToJump = 1.2f;
 
     private MeshRenderer Skin;
     private Color oldColor;
 
-    // Use this for initialization
-	void Start () {
+    private Inhabitable currentInhabitable;
 
+    void Start () {
+	    if (playerInstance == null)
+	    {
+            playerAvatar = GameObject.FindObjectOfType<GhostAvatar>();
+	        playerInstance = playerAvatar.gameObject;
+	    }
 
-	}
+        currentInhabitable = null;
+    }
 
-    // Update is called once per frame
     private void Update()
     {
+        if (currentInhabitable != null)
+        {
+            
+        }
     }
 
+    //Lets the controller know that the player is jumping to an inhabitable
     public void playerInhabitingZone(Inhabitable targetZone)
     {
-        throw new System.NotImplementedException();
+        currentInhabitable = targetZone;
+        currentInhabitable.ShouldLookInhabited(true);
     }
 
+    //a formality to hide the ghost once it is in the thing, and give control to the shell
     public void FinishedJumping()
     {
-        throw new System.NotImplementedException();
+        playerInstance.SetActive(false);
     }
 }

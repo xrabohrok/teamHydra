@@ -22,7 +22,7 @@ public class GhostAvatar : MonoBehaviour {
         Skin = GetComponent<MeshRenderer>();
         oldColor = Skin.material.color;
         GhostMaster = GameObject.FindObjectOfType<GhostDriver>();
-        controller = GameObject.FindObjectOfType<CustomThirdPersonCharacter>();
+        controller = this.GetComponent<CustomThirdPersonCharacter>();
 
 
     }
@@ -36,7 +36,7 @@ public class GhostAvatar : MonoBehaviour {
             Skin.material.color = new Color(oldColor.r + 50, oldColor.g, oldColor.b);
 
             //ok, here we go
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space) && !jumping)
             {
                 GhostMaster.playerInhabitingZone(targetZone);
                 controller.Locked = true;
@@ -70,11 +70,11 @@ public class GhostAvatar : MonoBehaviour {
     }
 
     //if the ghost is close enough to a thing that can be possesed, this signal is sent
-
     public void IsInPossessionZone(Inhabitable zone)
     {
         IsInZone = true;
         notInZoneCount = 0;
+        targetZone = zone;
     }
 
     public void HasLeftPossesionZone(Inhabitable zone)
@@ -82,5 +82,6 @@ public class GhostAvatar : MonoBehaviour {
         //so, this seems silly, but I basically wait a frame or two to make sure I'm out of all zones
         //I could just poll all the zones, buuuutttt, lets not
         notInZoneCount++;
+        targetZone = null;
     }
 }
