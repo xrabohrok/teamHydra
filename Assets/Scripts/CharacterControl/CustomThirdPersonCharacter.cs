@@ -7,14 +7,14 @@ namespace Characters.CustomThirdPerson
 	public class CustomThirdPersonCharacter : MonoBehaviour
 	{
 	    [SerializeField] float m_GroundCheckDistance = 0.1f;
-		[SerializeField] float m_BaseGroundSpeed = 0.1f;
+	    [SerializeField] float m_BaseGroundSpeed = 0.1f;
+	    public bool Locked { get; set; }
 
-		Rigidbody m_Rigidbody;
-		bool m_IsGrounded;
+	    Rigidbody m_Rigidbody;
+	    bool m_IsGrounded;
 	    Vector3 m_GroundNormal;
 	    bool m_Crouching;
 	    private Vector3 m_Heading;
-        
 
 
 	    void Start()
@@ -29,7 +29,7 @@ namespace Characters.CustomThirdPerson
         {
             // we implement this function to override the default root motion.
             // this allows us to modify the positional speed before it's applied.
-            if (m_IsGrounded && Time.deltaTime > 0)
+            if (m_IsGrounded && Time.deltaTime > 0 && !Locked)
             {
                 Vector3 v = (m_Heading * m_BaseGroundSpeed ) / Time.deltaTime;
 

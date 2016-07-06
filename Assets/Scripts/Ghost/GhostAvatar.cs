@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Characters.CustomThirdPerson;
+
+[RequireComponent(typeof(CustomThirdPersonCharacter))]
 
 public class GhostAvatar : MonoBehaviour {
     private MeshRenderer Skin;
@@ -7,12 +10,19 @@ public class GhostAvatar : MonoBehaviour {
 
     private bool IsInZone;
     private int notInZoneCount;
+    private GhostDriver GhostMaster;
+    private Inhabitable targetZone;
+    private bool jumping;
+    private float timeJumping;
+    private CustomThirdPersonCharacter controller;
     // Use this for initialization
 
     void Start()
     {
         Skin = GetComponent<MeshRenderer>();
         oldColor = Skin.material.color;
+        GhostMaster = GameObject.FindObjectOfType<GhostDriver>();
+        controller = GameObject.FindObjectOfType<CustomThirdPersonCharacter>();
 
 
     }
@@ -22,7 +32,18 @@ public class GhostAvatar : MonoBehaviour {
     void Update()
     {
         if (IsInZone)
+        {
             Skin.material.color = new Color(oldColor.r + 50, oldColor.g, oldColor.b);
+
+            //ok, here we go
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                GhostMaster.playerInhabitingZone(targetZone);
+                controller.Locked = true;
+                jumping = true;
+                //play swoosh animation here
+            }
+        }
 
         if (notInZoneCount > 0)
             notInZoneCount++;
@@ -31,6 +52,17 @@ public class GhostAvatar : MonoBehaviour {
         {
             Skin.material.color = oldColor;
             IsInZone = false;
+        }
+
+        if (jumping)
+        {
+            timeJumping += Time.deltaTime;
+            if (timeJumping >= GhostMaster.timeToJump)
+            {
+                jumping = false;
+                timeJumping = 0;
+                GhostMaster.FinishedJumping();
+            }
         }
 
         
