@@ -14,6 +14,7 @@ namespace Characters.CustomThirdPerson
 	    Vector3 m_GroundNormal;
 	    bool m_Crouching;
 	    private Vector3 m_Heading;
+        
 
 
 	    void Start()
@@ -51,11 +52,10 @@ namespace Characters.CustomThirdPerson
 	        move = transform.InverseTransformDirection(move);
 	        CheckGroundStatus();
 	        move = Vector3.ProjectOnPlane(move, m_GroundNormal);
-	        Mathf.Atan2(move.x, move.z);
+//	         Mathf.Atan2(move.x, move.z);
+	        m_Heading = move;
 
 
-	          m_Heading = Vector3.zero;
-	        
 //            Debug.Log(string.Format("move is {0}, {1}, {2}", move.x, move.y, move.z));
 
 	        // control and velocity handling is different when grounded and airborne:
