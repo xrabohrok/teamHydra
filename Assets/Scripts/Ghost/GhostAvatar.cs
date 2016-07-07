@@ -15,7 +15,16 @@ public class GhostAvatar : MonoBehaviour {
     private bool jumping;
     private float timeJumping;
     private CustomThirdPersonCharacter controller;
-    // Use this for initialization
+    private Rigidbody rigid;
+    private RigidbodyConstraints oldConstraints;
+
+    public bool isJumping
+    {
+        get
+        {
+            return jumping;
+        } 
+    }
 
     void Start()
     {
@@ -23,11 +32,11 @@ public class GhostAvatar : MonoBehaviour {
         oldColor = Skin.material.color;
         GhostMaster = GameObject.FindObjectOfType<GhostDriver>();
         controller = this.GetComponent<CustomThirdPersonCharacter>();
+        rigid = GetComponent<Rigidbody>();
 
 
     }
 
-    // Update is called once per frame
 
     void Update()
     {
@@ -83,5 +92,20 @@ public class GhostAvatar : MonoBehaviour {
         //I could just poll all the zones, buuuutttt, lets not
         notInZoneCount++;
         targetZone = null;
+    }
+
+    public void isInPlay(bool playing)
+    {
+        //I don't need the ghost falling forever and creating and overflow, just...float there.
+        if (!playing)
+        {
+            oldConstraints = rigid.constraints;
+            rigid.constraints = RigidbodyConstraints.FreezePosition;
+        }
+        else
+        {
+            controller.Locked = false;
+            rigid.constraints = oldConstraints;
+        }
     }
 }

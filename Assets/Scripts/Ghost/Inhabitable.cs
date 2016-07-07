@@ -7,10 +7,11 @@ public class Inhabitable : MonoBehaviour {
     public GameObject _respawnDropLocation;
 
     private SphereCollider cCollider;
-    private bool usingDropLocation;
     private Vector3 despawnLocation;
     private MeshRenderer thingRendered;
     private Color oldColor;
+
+    private Vector3 lastGoodPlayerSpot;
 
 
     // Use this for initialization
@@ -18,7 +19,6 @@ public class Inhabitable : MonoBehaviour {
 	{
 	    if (_respawnDropLocation != null)
 	    {
-	        usingDropLocation = true;
 	    }
 
 	    cCollider = this.gameObject.GetComponent<SphereCollider>();
@@ -39,6 +39,7 @@ public class Inhabitable : MonoBehaviour {
         if (other.CompareTag("Player"))
         {
             other.GetComponentInParent<GhostAvatar>().IsInPossessionZone(this);
+            lastGoodPlayerSpot = other.gameObject.transform.position;
         }
     }
 
@@ -51,22 +52,44 @@ public class Inhabitable : MonoBehaviour {
     }
 
     //Editor stuff
+#if UNITY_EDITOR
     void OnDrawGizmosSelected()
     {
         if(_respawnDropLocation != null)
             Gizmos.DrawLine(this.transform.position, _respawnDropLocation.transform.position);
-            
     }
+#endif
 
-    public void ShouldLookInhabited(bool isInhabited)
+    public void IsBeingInhabited(bool isInhabited)
     {
         if (isInhabited)
         {
             thingRendered.material.color = new Color(oldColor.r, oldColor.g, oldColor.b + 30);
+            //if a spot isn't declared, go back to the ghost spot
+            if (_respawnDropLocation == null)
+            {
+                _respawnDropLocation = new GameObject(string.Format("Temp Drop for {0}", this.gameObject.name));
+                _respawnDropLocation.transform.position = lastGoodPlayerSpot;
+            }
         }
         else
         {
             thingRendered.material.color = oldColor;
         }
+    }
+
+    public void RotateInhabitable(float getAxis)
+    {
+        //It is ok if this does nothing
+    }
+
+    public void ActivateInhabitable()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public Vector3 JumpOut()
+    {
+        return _respawnDropLocation.transform.position;
     }
 }
