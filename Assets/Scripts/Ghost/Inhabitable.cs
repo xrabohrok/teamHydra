@@ -90,6 +90,7 @@ public class Inhabitable : MonoBehaviour {
 
     public Vector3 JumpOut()
     {
+        IsBeingInhabited(false);
         return _respawnDropLocation.transform.position;
     }
 }
