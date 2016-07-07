@@ -3,7 +3,8 @@ using System.Collections;
 
 
 [RequireComponent(typeof(SphereCollider))]
-public class Inhabitable : MonoBehaviour {
+public class Inhabitable : MonoBehaviour, IInhabitableActions
+{
     public GameObject _respawnDropLocation;
 
     private SphereCollider cCollider;
