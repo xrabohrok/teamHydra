@@ -3,7 +3,7 @@ using System.Collections;
 
 
 [RequireComponent(typeof(SphereCollider))]
-public class Inhabitable : MonoBehaviour, IInhabitableActions
+public class Inhabitable : MonoBehaviour
 {
     public GameObject _respawnDropLocation;
 
@@ -12,11 +12,13 @@ public class Inhabitable : MonoBehaviour, IInhabitableActions
     private MeshRenderer thingRendered;
     private Color oldColor;
 
+    private IInhabitableActions actionSet;
     private Vector3 lastGoodPlayerSpot;
 
 
     // Use this for initialization
-	void Start ()
+
+    void Start ()
 	{
 	    if (_respawnDropLocation != null)
 	    {
@@ -27,9 +29,11 @@ public class Inhabitable : MonoBehaviour, IInhabitableActions
 
 	    thingRendered = this.gameObject.GetComponent<MeshRenderer>();
 	    oldColor = thingRendered.material.color;
+
+	    actionSet = gameObject.GetComponent<IInhabitableActions>();
 	}
-	
-	// Update is called once per frame
+
+    // Update is called once per frame
 	void Update ()
     {
 	
@@ -79,14 +83,16 @@ public class Inhabitable : MonoBehaviour, IInhabitableActions
         }
     }
 
-    public void RotateInhabitable(float getAxis)
+    public void InvokeRotateInhabitable(float axis)
     {
-        //It is ok if this does nothing
+        if(actionSet!=null)
+        actionSet.RotateInhabitable(axis);
     }
 
-    public void ActivateInhabitable()
+    public void InvokeActivateInhabitable()
     {
-        throw new System.NotImplementedException();
+        if(actionSet!=null)
+        actionSet.ActivateInhabitable();
     }
 
     public Vector3 JumpOut()

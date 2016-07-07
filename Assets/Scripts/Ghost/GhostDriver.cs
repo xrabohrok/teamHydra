@@ -45,12 +45,12 @@ public class GhostDriver : MonoBehaviour
         {
             //you are in something.  Now what.
             //rotate thing
-            currentInhabitable.RotateInhabitable(Input.GetAxis("Horizontal")); 
+            currentInhabitable.InvokeRotateInhabitable(Input.GetAxis("Horizontal")); 
 
             //do action (activate trap?)
             if(Input.GetKeyUp(KeyCode.E))
             {
-                currentInhabitable.ActivateInhabitable();
+                currentInhabitable.InvokeActivateInhabitable();
             }
 
             //Annnndd most importantly, jump out
