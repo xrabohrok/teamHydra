@@ -12,10 +12,10 @@ GameObject:
   - 65: {fileID: 6501916}
   - 23: {fileID: 2327968}
   - 195: {fileID: 19545424}
-  - 114: {fileID: 11476092}
+  - 114: {fileID: 11485592}
   m_Layer: 0
   m_Name: NPC
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78,7 +78,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &11476092
+--- !u!114 &11485592
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -86,11 +86,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 103006}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 584a77e9008b24b4d9ed01d217656d93, type: 3}
+  m_Script: {fileID: 11500000, guid: 442a2f93a16322040bac658d923f974b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextPointDist: 0.5
+  randomizeNavPoints: 0
+  fearMax: 100
+  fearReset: 0
+  nextPointDist: 0
+  scaleFearReset: 0
+  scaleVal: 0
+  exitPoint: {fileID: 0}
   navPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
