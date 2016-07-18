@@ -8,6 +8,7 @@ namespace Characters.CustomThirdPerson
 	{
 	    [SerializeField] float m_GroundCheckDistance = 0.1f;
 	    [SerializeField] float m_BaseGroundSpeed = 0.1f;
+	    public float verticalCenterChange = 0.1f;
 	    public bool Locked { get; set; }
 
 	    Rigidbody m_Rigidbody;
@@ -67,12 +68,14 @@ namespace Characters.CustomThirdPerson
 			RaycastHit hitInfo;
 #if UNITY_EDITOR
 			// helper to visualise the ground check ray in the scene view
-			Debug.DrawLine(transform.position + (Vector3.up * 0.1f), transform.position + (Vector3.up * 0.1f) + (Vector3.down * m_GroundCheckDistance));
+	        
+	        Debug.DrawLine(transform.position + (Vector3.up * verticalCenterChange), transform.position + (Vector3.up * verticalCenterChange) + (Vector3.down * m_GroundCheckDistance));
 #endif
             // 0.1f is a small offset to start the ray from inside the character
             // it is also good to note that the transform position in the sample assets is at the base of the character
 	        int filter = 1 << LayerMask.NameToLayer("Ground");
-            if (Physics.Raycast(transform.position + (Vector3.up * 0.1f), Vector3.down, out hitInfo, m_GroundCheckDistance, filter))
+            var raycastResult = Physics.Raycast(transform.position + (Vector3.up * verticalCenterChange), Vector3.down, out hitInfo, m_GroundCheckDistance, filter);
+            if (raycastResult)
 			{
 				m_GroundNormal = hitInfo.normal;
 				m_IsGrounded = true;

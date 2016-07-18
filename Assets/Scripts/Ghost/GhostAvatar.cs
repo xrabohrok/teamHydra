@@ -28,7 +28,7 @@ public class GhostAvatar : MonoBehaviour {
 
     void Start()
     {
-        Skin = GetComponent<MeshRenderer>();
+        Skin = GetComponentInChildren<MeshRenderer>();
         oldColor = Skin.material.color;
         GhostMaster = GameObject.FindObjectOfType<GhostDriver>();
         controller = this.GetComponent<CustomThirdPersonCharacter>();
