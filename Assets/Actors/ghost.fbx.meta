@@ -246,6 +246,7 @@ ModelImporter:
     7400002: JumpIn
     7400004: JumpOut
     7400006: standing
+    7400008: Inhabiting
     9500000: //RootNode
     13700000: Ghost
   materials:
