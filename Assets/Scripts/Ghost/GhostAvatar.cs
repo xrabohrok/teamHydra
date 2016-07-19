@@ -65,6 +65,8 @@ public class GhostAvatar : MonoBehaviour {
             IsInZone = false;
         }
 
+
+
         if (jumping)
         {
             timeJumping += Time.deltaTime;

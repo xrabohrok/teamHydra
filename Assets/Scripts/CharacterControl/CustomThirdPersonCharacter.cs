@@ -17,11 +17,12 @@ namespace Characters.CustomThirdPerson
 	    bool m_Crouching;
 	    private Vector3 m_Heading;
 
+        public bool isGrounded { get { return m_IsGrounded;} }
+
 
 	    void Start()
 		{
 			m_Rigidbody = GetComponent<Rigidbody>();
-			GetComponent<CapsuleCollider>();
 
 	        m_Rigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 		}
@@ -37,6 +38,14 @@ namespace Characters.CustomThirdPerson
                 // we preserve the existing y part of the current velocity.
                 v.y = m_Rigidbody.velocity.y;
                 m_Rigidbody.velocity = v;
+            }
+
+            if (m_Rigidbody.velocity.magnitude > 1 && m_IsGrounded && m_Rigidbody.velocity.z < .5f)
+            {
+                m_Rigidbody.rotation = Quaternion.LookRotation(m_Rigidbody.velocity, Vector3.up);
+                //var lookAngle = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(m_Rigidbody.velocity), Time.deltaTime * 2);
+                //m_Rigidbody.rotation = lookAngle;
+                Debug.Log(string.Format("lookat: {0}", m_Rigidbody.rotation.eulerAngles));
             }
         }
 
