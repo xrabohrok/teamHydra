@@ -234,7 +234,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400120, guid: 174afa27e570eae419853bdfbc94f8f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.047
+      value: 0.82
       objectReference: {fileID: 0}
     - target: {fileID: 400120, guid: 174afa27e570eae419853bdfbc94f8f1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -308,6 +308,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: eb221e94b46e79440aaba3d4503864a5, type: 2}
+    - target: {fileID: 100120, guid: 174afa27e570eae419853bdfbc94f8f1, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 174afa27e570eae419853bdfbc94f8f1, type: 3}
   m_IsPrefabParent: 0
@@ -465,7 +469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_GroundCheckDistance: 1.2
-  m_BaseGroundSpeed: 0.5
+  m_BaseGroundSpeed: 0.17
   verticalCenterChange: 0.1
 --- !u!54 &1237738886
 Rigidbody:

@@ -5,7 +5,7 @@ using Characters.CustomThirdPerson;
 [RequireComponent(typeof(CustomThirdPersonCharacter))]
 
 public class GhostAvatar : MonoBehaviour {
-    private MeshRenderer Skin;
+    private SkinnedMeshRenderer Skin;
     private Color oldColor;
 
     private bool IsInZone;
@@ -17,6 +17,7 @@ public class GhostAvatar : MonoBehaviour {
     private CustomThirdPersonCharacter controller;
     private Rigidbody rigid;
     private RigidbodyConstraints oldConstraints;
+    private Animator anims;
 
     public bool isJumping
     {
@@ -28,11 +29,12 @@ public class GhostAvatar : MonoBehaviour {
 
     void Start()
     {
-        Skin = GetComponentInChildren<MeshRenderer>();
+        Skin = GetComponentInChildren<SkinnedMeshRenderer>();
         oldColor = Skin.material.color;
         GhostMaster = GameObject.FindObjectOfType<GhostDriver>();
         controller = this.GetComponent<CustomThirdPersonCharacter>();
         rigid = GetComponent<Rigidbody>();
+        anims = GetComponent<Animator>();
 
 
     }
@@ -42,7 +44,7 @@ public class GhostAvatar : MonoBehaviour {
     {
         if (IsInZone)
         {
-            Skin.material.color = new Color(oldColor.r + 50, oldColor.g, oldColor.b);
+            Skin.material.color = new Color(oldColor.r, oldColor.g + 50, oldColor.b);
 
             //ok, here we go
             if (Input.GetKeyDown(KeyCode.Space) && !jumping)
@@ -50,7 +52,7 @@ public class GhostAvatar : MonoBehaviour {
                 GhostMaster.playerInhabitingZone(targetZone);
                 controller.Locked = true;
                 jumping = true;
-                //play swoosh animation here
+                anims.SetBool("Possessing",true);
             }
         }
 
@@ -106,6 +108,7 @@ public class GhostAvatar : MonoBehaviour {
         {
             controller.Locked = false;
             rigid.constraints = oldConstraints;
+            anims.SetBool("Possessing",false);
         }
     }
 }
