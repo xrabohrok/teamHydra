@@ -10,14 +10,16 @@ namespace Characters.CustomThirdPerson
 	    [SerializeField] float m_BaseGroundSpeed = 0.1f;
 	    public float verticalCenterChange = 0.1f;
 	    public bool Locked { get; set; }
+	    public float turnRate = 5;
 
 	    Rigidbody m_Rigidbody;
 	    bool m_IsGrounded;
 	    Vector3 m_GroundNormal;
 	    bool m_Crouching;
 	    private Vector3 m_Heading;
+	    private Vector3 m_scaledHeading;
 
-        public bool isGrounded { get { return m_IsGrounded;} }
+	    public bool isGrounded { get { return m_IsGrounded;} }
 
 
 	    void Start()
@@ -33,20 +35,23 @@ namespace Characters.CustomThirdPerson
             // this allows us to modify the positional speed before it's applied.
             if (m_IsGrounded && Time.deltaTime > 0 && !Locked)
             {
-                Vector3 v = (m_Heading * m_BaseGroundSpeed ) / Time.deltaTime;
 
-                // we preserve the existing y part of the current velocity.
-                v.y = m_Rigidbody.velocity.y;
-                m_Rigidbody.velocity = v;
+                var angle = Mathf.Atan2(m_Heading.x, m_Heading.z)*Mathf.Rad2Deg;
+                var moveThisFrame = Quaternion.Euler(new Vector3(0,angle * turnRate * Time.deltaTime,0));
+                var finalRoation = m_Rigidbody.rotation * moveThisFrame;
+                m_Rigidbody.MoveRotation(finalRoation);
+
+                var localVelocity = transform.InverseTransformDirection(m_Rigidbody.velocity);
+                localVelocity.z = m_scaledHeading.magnitude * m_BaseGroundSpeed;
+                m_Rigidbody.velocity = transform.TransformDirection(localVelocity);
+
             }
 
-            if (m_Rigidbody.velocity.magnitude > 1 && m_IsGrounded && m_Rigidbody.velocity.z < .5f)
-            {
-                m_Rigidbody.rotation = Quaternion.LookRotation(m_Rigidbody.velocity, Vector3.up);
-                //var lookAngle = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(m_Rigidbody.velocity), Time.deltaTime * 2);
-                //m_Rigidbody.rotation = lookAngle;
-                Debug.Log(string.Format("lookat: {0}", m_Rigidbody.rotation.eulerAngles));
-            }
+//            if (m_Rigidbody.velocity.magnitude > 1 && m_IsGrounded && m_Rigidbody.velocity.z < .5f)
+//            {
+//                //                m_Rigidbody.rotation = Quaternion.LookRotation(m_Rigidbody.velocity, Vector3.up);
+
+//            }
         }
 
 
@@ -57,12 +62,11 @@ namespace Characters.CustomThirdPerson
 	        // turn amount and forward amount required to head in the desired
 	        // direction.
 //	        Debug.Log(string.Format("move is {0}, {1}, {2}", move.x, move.y, move.z));
-
+	        m_scaledHeading = new Vector3(move.x, move.y, move.z);
 	        if (move.magnitude > 1f) move.Normalize();
 	        move = transform.InverseTransformDirection(move);
 	        CheckGroundStatus();
 	        move = Vector3.ProjectOnPlane(move, m_GroundNormal);
-//	         Mathf.Atan2(move.x, move.z);
 	        m_Heading = move;
 
 
