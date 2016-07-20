@@ -78,7 +78,7 @@ public class GhostAvatar : MonoBehaviour {
             }
         }
 
-        
+        anims.SetFloat("Speed",rigid.velocity.magnitude);
 
     }
 
