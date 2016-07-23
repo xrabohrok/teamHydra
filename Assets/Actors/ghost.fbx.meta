@@ -269,7 +269,1277 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: floating
+      takeName: floating
+      firstFrame: 0
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/elbow_l
+        weight: 1
+      - path: Armature/ROOT/elbow_r
+        weight: 1
+      - path: Armature/ROOT/hand_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_middle__a_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_middle__a_L/finger_middle_b_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_middle__a_L/finger_middle_b_L/finger_middle_c_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_pointer_a_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_pointer_a_L/finger_pointer_mid_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_pointer_a_L/finger_pointer_mid_L/finger_pointer_tip_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/pinky_a_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/pinky_a_L/pinky_b_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/pinky_a_L/pinky_b_L/pinky_c_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/thumb_base_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/thumb_base_L/thumb_mid_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/thumb_base_L/thumb_mid_L/thumb_tip_L
+        weight: 1
+      - path: Armature/ROOT/hand_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_middle_a_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_middle_a_R/finger_middle_b_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_middle_a_R/finger_middle_b_R/finger_middle_c_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_pointer_a_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_pointer_a_R/finger_pointer_mid_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_pointer_a_R/finger_pointer_mid_R/finger_pointer_tip_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/pinky_a_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/pinky_a_R/pinky_b_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/pinky_a_R/pinky_b_R/pinky_c_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/thumb_base_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/thumb_base_R/thumb_mind_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/thumb_base_R/thumb_mind_R/thumb_tip_R
+        weight: 1
+      - path: Armature/ROOT/hip
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_bottom_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_bottom_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_top_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_top_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L/forearm_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L/forearm_L/forearm_L_001
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L/forearm_L/forearm_L_001/wrist_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R/forearm_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R/forearm_R/forearm_R_001
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R/forearm_R/forearm_R_001/wrist_R
+        weight: 1
+      - path: Armature/ROOT/tail_1
+        weight: 1
+      - path: Armature/ROOT/tail_1/tail_2
+        weight: 1
+      - path: Armature/ROOT/tail_1/tail_2/tail_3
+        weight: 1
+      - path: Armature/ROOT/tail_1/tail_2/tail_3/tail_4
+        weight: 1
+      - path: Armature_master
+        weight: 1
+      - path: Armature_master/root_master
+        weight: 1
+      - path: Armature_master/root_master/base_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_bottom_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_bottom_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_top_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_top_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/Bone_004
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/Bone_009
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/Bone_005
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/Bone_006
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/Bone_007
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_middle__a_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_middle__a_L_master/finger_middle_b_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_middle__a_L_master/finger_middle_b_L_master/finger_middle_c_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_pointer_a_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_pointer_a_L_master/finger_pointer_mid_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_pointer_a_L_master/finger_pointer_mid_L_master/finger_pointer_tip_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/pinky_a_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/pinky_a_L_master/pinky_b_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/pinky_a_L_master/pinky_b_L_master/pinky_c_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/thumb_base_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/thumb_base_L_master/thumb_mid_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/thumb_base_L_master/thumb_mid_L_master/thumb_tip_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/Bone_002
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/Bone_008
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/Bone
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/Bone_001
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/Bone_003
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_middle_a_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_middle_a_R_master/finger_middle_b_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_middle_a_R_master/finger_middle_b_R_master/finger_middle_c_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_pointer_a_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_pointer_a_R_master/finger_pointer_mid_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_pointer_a_R_master/finger_pointer_mid_R_master/finger_pointer_tip_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/pinky_a_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/pinky_a_R_master/pinky_b_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/pinky_a_R_master/pinky_b_R_master/pinky_c_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/thumb_base_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/thumb_base_R_master/thumb_mid_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/thumb_base_R_master/thumb_mid_R_master/thumb_tip_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1/tail_master_2
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1/tail_master_2/tail_master_3
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1/tail_master_2/tail_master_3/tail_master_4
+        weight: 1
+      - path: Ghost
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Inhabiting
+      takeName: Inhabiting
+      firstFrame: 0
+      lastFrame: 3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/elbow_l
+        weight: 1
+      - path: Armature/ROOT/elbow_r
+        weight: 1
+      - path: Armature/ROOT/hand_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_middle__a_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_middle__a_L/finger_middle_b_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_middle__a_L/finger_middle_b_L/finger_middle_c_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_pointer_a_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_pointer_a_L/finger_pointer_mid_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_pointer_a_L/finger_pointer_mid_L/finger_pointer_tip_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/pinky_a_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/pinky_a_L/pinky_b_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/pinky_a_L/pinky_b_L/pinky_c_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/thumb_base_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/thumb_base_L/thumb_mid_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/thumb_base_L/thumb_mid_L/thumb_tip_L
+        weight: 1
+      - path: Armature/ROOT/hand_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_middle_a_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_middle_a_R/finger_middle_b_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_middle_a_R/finger_middle_b_R/finger_middle_c_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_pointer_a_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_pointer_a_R/finger_pointer_mid_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_pointer_a_R/finger_pointer_mid_R/finger_pointer_tip_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/pinky_a_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/pinky_a_R/pinky_b_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/pinky_a_R/pinky_b_R/pinky_c_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/thumb_base_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/thumb_base_R/thumb_mind_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/thumb_base_R/thumb_mind_R/thumb_tip_R
+        weight: 1
+      - path: Armature/ROOT/hip
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_bottom_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_bottom_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_top_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_top_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L/forearm_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L/forearm_L/forearm_L_001
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L/forearm_L/forearm_L_001/wrist_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R/forearm_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R/forearm_R/forearm_R_001
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R/forearm_R/forearm_R_001/wrist_R
+        weight: 1
+      - path: Armature/ROOT/tail_1
+        weight: 1
+      - path: Armature/ROOT/tail_1/tail_2
+        weight: 1
+      - path: Armature/ROOT/tail_1/tail_2/tail_3
+        weight: 1
+      - path: Armature/ROOT/tail_1/tail_2/tail_3/tail_4
+        weight: 1
+      - path: Armature_master
+        weight: 1
+      - path: Armature_master/root_master
+        weight: 1
+      - path: Armature_master/root_master/base_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_bottom_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_bottom_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_top_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_top_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/Bone_004
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/Bone_009
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/Bone_005
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/Bone_006
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/Bone_007
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_middle__a_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_middle__a_L_master/finger_middle_b_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_middle__a_L_master/finger_middle_b_L_master/finger_middle_c_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_pointer_a_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_pointer_a_L_master/finger_pointer_mid_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_pointer_a_L_master/finger_pointer_mid_L_master/finger_pointer_tip_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/pinky_a_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/pinky_a_L_master/pinky_b_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/pinky_a_L_master/pinky_b_L_master/pinky_c_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/thumb_base_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/thumb_base_L_master/thumb_mid_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/thumb_base_L_master/thumb_mid_L_master/thumb_tip_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/Bone_002
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/Bone_008
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/Bone
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/Bone_001
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/Bone_003
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_middle_a_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_middle_a_R_master/finger_middle_b_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_middle_a_R_master/finger_middle_b_R_master/finger_middle_c_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_pointer_a_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_pointer_a_R_master/finger_pointer_mid_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_pointer_a_R_master/finger_pointer_mid_R_master/finger_pointer_tip_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/pinky_a_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/pinky_a_R_master/pinky_b_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/pinky_a_R_master/pinky_b_R_master/pinky_c_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/thumb_base_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/thumb_base_R_master/thumb_mid_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/thumb_base_R_master/thumb_mid_R_master/thumb_tip_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1/tail_master_2
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1/tail_master_2/tail_master_3
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1/tail_master_2/tail_master_3/tail_master_4
+        weight: 1
+      - path: Ghost
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: JumpIn
+      takeName: JumpIn
+      firstFrame: 0
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/elbow_l
+        weight: 1
+      - path: Armature/ROOT/elbow_r
+        weight: 1
+      - path: Armature/ROOT/hand_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_middle__a_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_middle__a_L/finger_middle_b_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_middle__a_L/finger_middle_b_L/finger_middle_c_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_pointer_a_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_pointer_a_L/finger_pointer_mid_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_pointer_a_L/finger_pointer_mid_L/finger_pointer_tip_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/pinky_a_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/pinky_a_L/pinky_b_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/pinky_a_L/pinky_b_L/pinky_c_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/thumb_base_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/thumb_base_L/thumb_mid_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/thumb_base_L/thumb_mid_L/thumb_tip_L
+        weight: 1
+      - path: Armature/ROOT/hand_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_middle_a_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_middle_a_R/finger_middle_b_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_middle_a_R/finger_middle_b_R/finger_middle_c_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_pointer_a_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_pointer_a_R/finger_pointer_mid_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_pointer_a_R/finger_pointer_mid_R/finger_pointer_tip_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/pinky_a_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/pinky_a_R/pinky_b_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/pinky_a_R/pinky_b_R/pinky_c_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/thumb_base_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/thumb_base_R/thumb_mind_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/thumb_base_R/thumb_mind_R/thumb_tip_R
+        weight: 1
+      - path: Armature/ROOT/hip
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_bottom_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_bottom_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_top_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_top_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L/forearm_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L/forearm_L/forearm_L_001
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L/forearm_L/forearm_L_001/wrist_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R/forearm_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R/forearm_R/forearm_R_001
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R/forearm_R/forearm_R_001/wrist_R
+        weight: 1
+      - path: Armature/ROOT/tail_1
+        weight: 1
+      - path: Armature/ROOT/tail_1/tail_2
+        weight: 1
+      - path: Armature/ROOT/tail_1/tail_2/tail_3
+        weight: 1
+      - path: Armature/ROOT/tail_1/tail_2/tail_3/tail_4
+        weight: 1
+      - path: Armature_master
+        weight: 1
+      - path: Armature_master/root_master
+        weight: 1
+      - path: Armature_master/root_master/base_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_bottom_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_bottom_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_top_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_top_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/Bone_004
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/Bone_009
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/Bone_005
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/Bone_006
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/Bone_007
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_middle__a_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_middle__a_L_master/finger_middle_b_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_middle__a_L_master/finger_middle_b_L_master/finger_middle_c_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_pointer_a_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_pointer_a_L_master/finger_pointer_mid_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_pointer_a_L_master/finger_pointer_mid_L_master/finger_pointer_tip_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/pinky_a_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/pinky_a_L_master/pinky_b_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/pinky_a_L_master/pinky_b_L_master/pinky_c_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/thumb_base_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/thumb_base_L_master/thumb_mid_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/thumb_base_L_master/thumb_mid_L_master/thumb_tip_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/Bone_002
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/Bone_008
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/Bone
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/Bone_001
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/Bone_003
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_middle_a_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_middle_a_R_master/finger_middle_b_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_middle_a_R_master/finger_middle_b_R_master/finger_middle_c_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_pointer_a_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_pointer_a_R_master/finger_pointer_mid_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_pointer_a_R_master/finger_pointer_mid_R_master/finger_pointer_tip_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/pinky_a_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/pinky_a_R_master/pinky_b_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/pinky_a_R_master/pinky_b_R_master/pinky_c_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/thumb_base_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/thumb_base_R_master/thumb_mid_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/thumb_base_R_master/thumb_mid_R_master/thumb_tip_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1/tail_master_2
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1/tail_master_2/tail_master_3
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1/tail_master_2/tail_master_3/tail_master_4
+        weight: 1
+      - path: Ghost
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: JumpOut
+      takeName: JumpOut
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/elbow_l
+        weight: 1
+      - path: Armature/ROOT/elbow_r
+        weight: 1
+      - path: Armature/ROOT/hand_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_middle__a_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_middle__a_L/finger_middle_b_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_middle__a_L/finger_middle_b_L/finger_middle_c_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_pointer_a_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_pointer_a_L/finger_pointer_mid_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_pointer_a_L/finger_pointer_mid_L/finger_pointer_tip_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/pinky_a_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/pinky_a_L/pinky_b_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/pinky_a_L/pinky_b_L/pinky_c_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/thumb_base_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/thumb_base_L/thumb_mid_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/thumb_base_L/thumb_mid_L/thumb_tip_L
+        weight: 1
+      - path: Armature/ROOT/hand_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_middle_a_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_middle_a_R/finger_middle_b_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_middle_a_R/finger_middle_b_R/finger_middle_c_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_pointer_a_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_pointer_a_R/finger_pointer_mid_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_pointer_a_R/finger_pointer_mid_R/finger_pointer_tip_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/pinky_a_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/pinky_a_R/pinky_b_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/pinky_a_R/pinky_b_R/pinky_c_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/thumb_base_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/thumb_base_R/thumb_mind_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/thumb_base_R/thumb_mind_R/thumb_tip_R
+        weight: 1
+      - path: Armature/ROOT/hip
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_bottom_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_bottom_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_top_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_top_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L/forearm_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L/forearm_L/forearm_L_001
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L/forearm_L/forearm_L_001/wrist_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R/forearm_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R/forearm_R/forearm_R_001
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R/forearm_R/forearm_R_001/wrist_R
+        weight: 1
+      - path: Armature/ROOT/tail_1
+        weight: 1
+      - path: Armature/ROOT/tail_1/tail_2
+        weight: 1
+      - path: Armature/ROOT/tail_1/tail_2/tail_3
+        weight: 1
+      - path: Armature/ROOT/tail_1/tail_2/tail_3/tail_4
+        weight: 1
+      - path: Armature_master
+        weight: 1
+      - path: Armature_master/root_master
+        weight: 1
+      - path: Armature_master/root_master/base_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_bottom_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_bottom_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_top_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_top_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/Bone_004
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/Bone_009
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/Bone_005
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/Bone_006
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/Bone_007
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_middle__a_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_middle__a_L_master/finger_middle_b_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_middle__a_L_master/finger_middle_b_L_master/finger_middle_c_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_pointer_a_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_pointer_a_L_master/finger_pointer_mid_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_pointer_a_L_master/finger_pointer_mid_L_master/finger_pointer_tip_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/pinky_a_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/pinky_a_L_master/pinky_b_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/pinky_a_L_master/pinky_b_L_master/pinky_c_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/thumb_base_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/thumb_base_L_master/thumb_mid_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/thumb_base_L_master/thumb_mid_L_master/thumb_tip_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/Bone_002
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/Bone_008
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/Bone
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/Bone_001
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/Bone_003
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_middle_a_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_middle_a_R_master/finger_middle_b_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_middle_a_R_master/finger_middle_b_R_master/finger_middle_c_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_pointer_a_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_pointer_a_R_master/finger_pointer_mid_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_pointer_a_R_master/finger_pointer_mid_R_master/finger_pointer_tip_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/pinky_a_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/pinky_a_R_master/pinky_b_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/pinky_a_R_master/pinky_b_R_master/pinky_c_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/thumb_base_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/thumb_base_R_master/thumb_mid_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/thumb_base_R_master/thumb_mid_R_master/thumb_tip_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1/tail_master_2
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1/tail_master_2/tail_master_3
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1/tail_master_2/tail_master_3/tail_master_4
+        weight: 1
+      - path: Ghost
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: standing
+      takeName: standing
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/elbow_l
+        weight: 1
+      - path: Armature/ROOT/elbow_r
+        weight: 1
+      - path: Armature/ROOT/hand_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_middle__a_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_middle__a_L/finger_middle_b_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_middle__a_L/finger_middle_b_L/finger_middle_c_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_pointer_a_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_pointer_a_L/finger_pointer_mid_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/finger_pointer_a_L/finger_pointer_mid_L/finger_pointer_tip_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/pinky_a_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/pinky_a_L/pinky_b_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/pinky_a_L/pinky_b_L/pinky_c_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/thumb_base_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/thumb_base_L/thumb_mid_L
+        weight: 1
+      - path: Armature/ROOT/hand_L/thumb_base_L/thumb_mid_L/thumb_tip_L
+        weight: 1
+      - path: Armature/ROOT/hand_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_middle_a_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_middle_a_R/finger_middle_b_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_middle_a_R/finger_middle_b_R/finger_middle_c_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_pointer_a_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_pointer_a_R/finger_pointer_mid_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/finger_pointer_a_R/finger_pointer_mid_R/finger_pointer_tip_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/pinky_a_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/pinky_a_R/pinky_b_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/pinky_a_R/pinky_b_R/pinky_c_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/thumb_base_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/thumb_base_R/thumb_mind_R
+        weight: 1
+      - path: Armature/ROOT/hand_R/thumb_base_R/thumb_mind_R/thumb_tip_R
+        weight: 1
+      - path: Armature/ROOT/hip
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_bottom_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_bottom_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_top_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/neck/head/eye_top_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L/forearm_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L/forearm_L/forearm_L_001
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_L/arm_L/forearm_L/forearm_L_001/wrist_L
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R/forearm_R
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R/forearm_R/forearm_R_001
+        weight: 1
+      - path: Armature/ROOT/hip/spine_a/spine_b/shoulder_R/arm_R/forearm_R/forearm_R_001/wrist_R
+        weight: 1
+      - path: Armature/ROOT/tail_1
+        weight: 1
+      - path: Armature/ROOT/tail_1/tail_2
+        weight: 1
+      - path: Armature/ROOT/tail_1/tail_2/tail_3
+        weight: 1
+      - path: Armature/ROOT/tail_1/tail_2/tail_3/tail_4
+        weight: 1
+      - path: Armature_master
+        weight: 1
+      - path: Armature_master/root_master
+        weight: 1
+      - path: Armature_master/root_master/base_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_bottom_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_bottom_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_top_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/neck_master/head_master/eye_top_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/Bone_004
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/Bone_009
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/Bone_005
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/Bone_006
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/Bone_007
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_middle__a_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_middle__a_L_master/finger_middle_b_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_middle__a_L_master/finger_middle_b_L_master/finger_middle_c_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_pointer_a_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_pointer_a_L_master/finger_pointer_mid_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/finger_pointer_a_L_master/finger_pointer_mid_L_master/finger_pointer_tip_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/pinky_a_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/pinky_a_L_master/pinky_b_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/pinky_a_L_master/pinky_b_L_master/pinky_c_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/thumb_base_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/thumb_base_L_master/thumb_mid_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_L_master/fk_arm_L/fk_forearm_L/hand_L_master/thumb_base_L_master/thumb_mid_L_master/thumb_tip_L_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/Bone_002
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/Bone_008
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/Bone
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/Bone_001
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/Bone_003
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_middle_a_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_middle_a_R_master/finger_middle_b_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_middle_a_R_master/finger_middle_b_R_master/finger_middle_c_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_pointer_a_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_pointer_a_R_master/finger_pointer_mid_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/finger_pointer_a_R_master/finger_pointer_mid_R_master/finger_pointer_tip_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/pinky_a_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/pinky_a_R_master/pinky_b_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/pinky_a_R_master/pinky_b_R_master/pinky_c_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/thumb_base_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/thumb_base_R_master/thumb_mid_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/spine_1_master/spine_a_master/spine_b_master/shoulder_R_master/fk_arm_r/fk_forearm_R/hand_R_master/thumb_base_R_master/thumb_mid_R_master/thumb_tip_R_master
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1/tail_master_2
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1/tail_master_2/tail_master_3
+        weight: 1
+      - path: Armature_master/root_master/base_master/tail_master_1/tail_master_2/tail_master_3/tail_master_4
+        weight: 1
+      - path: Ghost
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []

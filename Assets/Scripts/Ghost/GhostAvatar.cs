@@ -52,6 +52,7 @@ public class GhostAvatar : MonoBehaviour {
                 GhostMaster.playerInhabitingZone(targetZone);
                 controller.Locked = true;
                 jumping = true;
+                anims.Play("JumpIn");
                 anims.SetBool("Possessing",true);
             }
         }
@@ -70,7 +71,8 @@ public class GhostAvatar : MonoBehaviour {
         if (jumping)
         {
             timeJumping += Time.deltaTime;
-            if (timeJumping >= GhostMaster.timeToJump)
+            var currAnim = anims.GetCurrentAnimatorStateInfo(0);
+            if (currAnim.IsName("Inhabiting"))
             {
                 jumping = false;
                 timeJumping = 0;
