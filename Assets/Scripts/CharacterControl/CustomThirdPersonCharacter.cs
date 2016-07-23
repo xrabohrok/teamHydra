@@ -43,7 +43,10 @@ namespace Characters.CustomThirdPerson
 
                 var localVelocity = transform.InverseTransformDirection(m_Rigidbody.velocity);
                 localVelocity.z = m_scaledHeading.magnitude * m_BaseGroundSpeed;
+                localVelocity.x = 0;
+                localVelocity.y = 0;
                 m_Rigidbody.velocity = transform.TransformDirection(localVelocity);
+//                m_Rigidbody.AddForce(transform.TransformDirection(localVelocity));
 
             }
 

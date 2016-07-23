@@ -14,6 +14,7 @@ public class Inhabitable : MonoBehaviour
 
     private IInhabitableActions actionSet;
     private Vector3 lastGoodPlayerSpot;
+    private bool thisIsInhabited;
 
 
     // Use this for initialization
@@ -81,17 +82,19 @@ public class Inhabitable : MonoBehaviour
         {
             thingRendered.material.color = oldColor;
         }
+        thisIsInhabited = isInhabited;
+
     }
 
     public void InvokeRotateInhabitable(float axis)
     {
-        if(actionSet!=null)
+        if(actionSet!=null && thisIsInhabited)
         actionSet.RotateInhabitable(axis);
     }
 
     public void InvokeActivateInhabitable()
     {
-        if(actionSet!=null)
+        if(actionSet!=null && thisIsInhabited)
         actionSet.ActivateInhabitable();
     }
 
