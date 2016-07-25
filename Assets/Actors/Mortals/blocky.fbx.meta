@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 46ce7766c674a304ba673a396070f83a
+timeCreated: 1469415231
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_back_ik_L
+    100002: arm_back_ik_R
+    100004: arm_back_L
+    100006: arm_back_R
+    100008: arm_ik_L
+    100010: arm_ik_R
+    100012: Armature
+    100014: Blocky
+    100016: //RootNode
+    100018: foot_back_ik_L
+    100020: foot_back_ik_R
+    100022: foot_back_L
+    100024: foot_back_R
+    100026: foot_front_L
+    100028: foot_front_pose_L
+    100030: foot_front_pose_R
+    100032: foot_front_R
+    100034: forearm_ik_L
+    100036: forearm_ik_R
+    100038: forearm_L
+    100040: forearm_R
+    100042: hand_ik_L
+    100044: hand_ik_R
+    100046: hand_L
+    100048: hand_R
+    100050: head
+    100052: head_L
+    100054: head_L_001
+    100056: head_R
+    100058: head_R_001
+    100060: Hip_IK
+    100062: hip_L
+    100064: hip_R
+    100066: jaw
+    100068: jaw_001
+    100070: knee_ik_L
+    100072: knee_ik_R
+    100074: middle_joint_L
+    100076: middle_joint_R
+    100078: middle_tip_L
+    100080: middle_tip_R
+    100082: neck
+    100084: pinky_joint_L
+    100086: pinky_joint_R
+    100088: pinky_tip_L
+    100090: pinky_tip_R
+    100092: pointer_joint_L
+    100094: pointer_joint_R
+    100096: pointer_tip_L
+    100098: pointer_tip_R
+    100100: ROOT
+    100102: shin_ik_L
+    100104: shin_ik_R
+    100106: shin_L
+    100108: shin_R
+    100110: shoulder_L
+    100112: shoulder_R
+    100114: spine_base
+    100116: spine_top
+    100118: thigh_ik_L
+    100120: thigh_ik_R
+    100122: thigh_L
+    100124: thigh_R
+    100126: thumb_joint_L
+    100128: thumb_joint_R
+    100130: thumb_tip_L
+    100132: thumb_tip_R
+    400000: arm_back_ik_L
+    400002: arm_back_ik_R
+    400004: arm_back_L
+    400006: arm_back_R
+    400008: arm_ik_L
+    400010: arm_ik_R
+    400012: Armature
+    400014: Blocky
+    400016: //RootNode
+    400018: foot_back_ik_L
+    400020: foot_back_ik_R
+    400022: foot_back_L
+    400024: foot_back_R
+    400026: foot_front_L
+    400028: foot_front_pose_L
+    400030: foot_front_pose_R
+    400032: foot_front_R
+    400034: forearm_ik_L
+    400036: forearm_ik_R
+    400038: forearm_L
+    400040: forearm_R
+    400042: hand_ik_L
+    400044: hand_ik_R
+    400046: hand_L
+    400048: hand_R
+    400050: head
+    400052: head_L
+    400054: head_L_001
+    400056: head_R
+    400058: head_R_001
+    400060: Hip_IK
+    400062: hip_L
+    400064: hip_R
+    400066: jaw
+    400068: jaw_001
+    400070: knee_ik_L
+    400072: knee_ik_R
+    400074: middle_joint_L
+    400076: middle_joint_R
+    400078: middle_tip_L
+    400080: middle_tip_R
+    400082: neck
+    400084: pinky_joint_L
+    400086: pinky_joint_R
+    400088: pinky_tip_L
+    400090: pinky_tip_R
+    400092: pointer_joint_L
+    400094: pointer_joint_R
+    400096: pointer_tip_L
+    400098: pointer_tip_R
+    400100: ROOT
+    400102: shin_ik_L
+    400104: shin_ik_R
+    400106: shin_L
+    400108: shin_R
+    400110: shoulder_L
+    400112: shoulder_R
+    400114: spine_base
+    400116: spine_top
+    400118: thigh_ik_L
+    400120: thigh_ik_R
+    400122: thigh_L
+    400124: thigh_R
+    400126: thumb_joint_L
+    400128: thumb_joint_R
+    400130: thumb_tip_L
+    400132: thumb_tip_R
+    4300000: Blocky
+    7400000: Freakout
+    7400002: PoseLib
+    7400004: Sprint_Scared
+    7400006: UI_Popup
+    9500000: //RootNode
+    13700000: Blocky
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
