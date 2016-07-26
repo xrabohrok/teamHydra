@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 46ce7766c674a304ba673a396070f83a
-timeCreated: 1469415231
+timeCreated: 1469498494
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -160,7 +160,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
