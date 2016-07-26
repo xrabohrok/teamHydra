@@ -167,9 +167,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.07
-  m_Height: 0.3357308
+  m_Height: 0.28
   m_Direction: 1
-  m_Center: {x: 0, y: 0.12, z: 0}
+  m_Center: {x: 0, y: 0.14, z: 0}
 --- !u!54 &390073821
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -183,8 +183,28 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!195 &390073822
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 390073817}
+  m_Enabled: 1
+  m_Radius: 0.13
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 0.26
+  m_BaseOffset: 0.02
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &477893395 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 168260, guid: 89d7b0ab01cce4d479f764325a345fcd, type: 2}
@@ -707,15 +727,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400016, guid: 46ce7766c674a304ba673a396070f83a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.998
+      value: 13.05
       objectReference: {fileID: 0}
     - target: {fileID: 400016, guid: 46ce7766c674a304ba673a396070f83a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.61
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: 400016, guid: 46ce7766c674a304ba673a396070f83a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.5043
+      value: 8.19
       objectReference: {fileID: 0}
     - target: {fileID: 400016, guid: 46ce7766c674a304ba673a396070f83a, type: 3}
       propertyPath: m_LocalRotation.x
