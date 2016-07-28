@@ -7,6 +7,7 @@ using System.Collections;
 
 //Determines pathing for NPC.  Takes inspector transforms into an array and randomizes them for the NavAgent to travel through.
 //Also re-randomizes the path once the current one is completed.
+[RequireComponent(typeof(NavMeshAgent))]
 public class NPCController : MonoBehaviour {
 
 

@@ -82,6 +82,8 @@ public class GhostAvatar : MonoBehaviour {
 
         anims.SetFloat("Speed",rigid.velocity.magnitude);
 
+//        Debug.Log(string.Format("ghost speed: {0}", rigid.velocity.magnitude));
+
     }
 
     //if the ghost is close enough to a thing that can be possesed, this signal is sent

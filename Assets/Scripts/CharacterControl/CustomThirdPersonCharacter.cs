@@ -35,7 +35,6 @@ namespace Characters.CustomThirdPerson
             // this allows us to modify the positional speed before it's applied.
             if (m_IsGrounded && Time.deltaTime > 0 && !Locked)
             {
-
                 var angle = Mathf.Atan2(m_Heading.x, m_Heading.z)*Mathf.Rad2Deg;
                 var moveThisFrame = Quaternion.Euler(new Vector3(0,angle * turnRate * Time.deltaTime,0));
                 var finalRoation = m_Rigidbody.rotation * moveThisFrame;
